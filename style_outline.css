@@ -1,0 +1,205 @@
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .headerlogo {
+    background-color: #1f2937;
+    outline: 2px solid purple;
+    padding: 10px 100px;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    outline: 1px solid green;
+    display:flex;
+    flex-basis:50%;
+    justify-content: flex-start;
+    height:75px;
+}
+
+
+
+  .headerlink {
+    outline: 1px solid yellow;
+    color:#e5e7eb;
+    font-size: 18px;
+  }
+
+
+  .hero {
+    padding: 100px;
+    background-color: #1f2937;
+    display: flex;  
+    justify-content: space-between;  
+
+  }
+  
+.titletext {
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.bodytext {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.button1 {
+    background-color:  #3882f6;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 7px 30px;
+    color: white;
+    font-weight: bold;
+}
+
+  .right {
+    outline: 1px solid   grey;
+    width:550px;
+    height:200px;
+    background-color: grey;
+  }
+
+  .mainlinks {
+    background-color: white;
+    outline: 2px solid orange;
+    margin: 60px 20px;
+    padding-bottom: 20px;
+    width: 75vw;
+    align-self: center;
+   
+  }
+
+ .title {
+    outline: 1px solid purple;  
+    text-align: center;
+    color:#1f2937;
+    font-size: 36px;
+    font-weight:bolder;
+    padding: 20px 0;
+  }
+
+  .rowoflinks {
+    display: flex;
+    justify-content: space-around;
+ /*   padding: 0px 100px;*/
+/*    margin: 20px;*/
+
+  }
+
+  .linkimage {
+    outline: 3px solid blue;
+    border-radius: 15px;
+   /* margin: 10px 0px; */
+    width: 170px;
+    height:170px;
+    margin-bottom: 10px;  
+  }
+
+  .link {
+    outline: 3px solid turquoise;
+/*    margin: 10px; */
+    font-size: 18px;
+    text-align: center;
+    width:170px;
+  }
+
+
+  .quote {
+    background-color: #e5e7eb;
+    padding: 60px 0;
+    display:flex;
+    flex-direction: column;
+  }
+
+  .quotetext {
+    outline: 3px solid black;
+    width:56vw;
+    align-self: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1f2937;
+  
+   
+  }
+
+  .quoteauthor {
+    text-align:right;
+    font-weight: normal;
+    font-style: normal;
+    width:75vw;
+    font-size: 20px;
+    align-self:center;
+  }
+
+
+  .signup-bottom {
+    outline: 3px solid indigo;
+    height:200px;
+    color: white;
+    border-radius: 08px;
+    margin:70px 0; 
+    padding: 0 100px;
+    display:flex;
+    align-self: center;
+    justify-content: space-around;;
+    background-color: #3882f6;
+    width:80vh;
+  }
+
+  .signupleft {
+    outline: 3px solid turquoise;
+    display:flex;
+    flex-direction: column;
+    justify-content: CENTER;
+} 
+
+  .signupright {
+    outline:3px solid brown;
+    display:flex;
+    align-items: center;
+  }
+
+
+    .signuptext, .signuptitle {
+    outline: 3px solid thistle;
+    font-weight: bolder;
+    font-size: 24px;
+  }
+
+  .signuptext {
+    outline: 3px solid salmon;
+    font-size: 14px;
+    font-weight: normal;
+
+  }
+
+ .button2 {
+
+  background-color: #3882F6; 
+  width:100px;
+  color:#FFFFFF;
+   text-decoration:none;
+  border:0.1em solid #FFFFFF;
+  transition: all 0.2s; 
+}
+
+.button2:hover {
+   background-color: #ffffff; 
+   color: #3882F6; 
+ }
+
+ .footer {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+ }
